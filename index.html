@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f5f5f5;
+        box-sizing: border-box;
+    }
+    p {
+        text-align: center;
+        margin: 10px;
+    }
+    .titolo {
+        font-size: 6vw; /* si adatta automaticamente alla larghezza dello schermo */
+        font-weight: bold;
+    }
+    .codice {
+        font-size: 5vw;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    button {
+        width: 80%;
+        max-width: 300px;
+        padding: 15px;
+        margin: 10px;
+        font-size: 4.5vw;
+        border: none;
+        border-radius: 10px;
+        background-color: #007AFF;
+        color: white;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #005FCC;
+    }
+</style>
+</head>
+<body>
+
+    <p>Condominio</p>
+    <p class="titolo">Bellagio</p>
+    <p>Codice</p>
+    <p class="codice">PL-0037</p>
+
+    <button onclick="window.location.href='tel:+393924986712';">
+        Chiama l'assistenza
+    </button>
+    <button onclick="window.location.href='mailto:bebop.a@hotmail.it?subject=Richiesta%20Intervento%20mail&body=Testo%20precompilato%20della%20mail.';">
+        Invia email
+    </button>
+
+</body>
+</html>
